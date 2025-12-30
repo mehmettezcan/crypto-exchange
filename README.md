@@ -1,4 +1,4 @@
-# Crypto Exchange
+# Crypto Exchange - .NET 10 & React 18 & Vite & Docker
 
 Gerçek zamanlı kripto para fiyat takibi yapabilen, kullanıcı kimlik doğrulama sistemi içeren modern bir web uygulaması.
 
