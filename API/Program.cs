@@ -81,7 +81,7 @@ app.UseCors(options =>
 {
     options
           .AllowAnyHeader()
-          .AllowAnyMethod().WithOrigins("http://localhost:3000", "http://localhost:5173");
+          .AllowAnyMethod().WithOrigins("http://localhost:3000", "http://localhost:5173", "http://p4gko04oc4cg8g84sw0ksowg.138.68.111.206.sslip.io");
 });
 
 
