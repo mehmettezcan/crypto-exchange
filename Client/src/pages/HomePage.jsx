@@ -110,7 +110,48 @@ const HomePage = () => {
 
   const handleCloseModal = () => setSelectedSymbol(null);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) {
+    return (
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          gap: '1.5rem',
+        }}
+      >
+        <div
+          style={{
+            width: '50px',
+            height: '50px',
+            border: '4px solid rgba(59, 130, 246, 0.2)',
+            borderTop: '4px solid #3b82f6',
+            borderRadius: '50%',
+            animation: 'spin 1s linear infinite',
+          }}
+        />
+        <p
+          style={{
+            color: '#9ca3af',
+            fontSize: '1rem',
+            fontWeight: '500',
+          }}
+        >
+          Kripto fiyatları yükleniyor...
+        </p>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
 
   return (
     <div style={{ padding: '2rem' }}>
