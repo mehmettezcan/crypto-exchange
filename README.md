@@ -2,6 +2,12 @@
 
 Gerçek zamanlı kripto para fiyat takibi yapabilen, kullanıcı kimlik doğrulama sistemi içeren modern bir web uygulaması.
 
+## Canlı Demo
+
+🌐 [Canlı Demo'yu Görüntüle](http://p4gko04oc4cg8g84sw0ksowg.138.68.111.206.sslip.io)
+
+> **Not**: Demo linki henüz yapılandırılmamışsa, yerel kurulum talimatlarını takip ederek uygulamayı çalıştırabilirsiniz.
+
 ## Özellikler
 
 - **Gerçek Zamanlı Fiyat Takibi**: OKX WebSocket API üzerinden canlı kripto para fiyat güncellemeleri
